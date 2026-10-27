@@ -55,9 +55,7 @@ a {
   margin-bottom: 24px;
 }
 
-/* =========================================================
-   BUTTONS
-   ========================================================= */
+/* BUTTONS */
 .btn {
   display: inline-block;
   padding: 10px 22px;
@@ -88,9 +86,7 @@ a {
   background-color: #f8fafc;
 }
 
-/* =========================================================
-   2. NAVBAR
-   ========================================================= */
+/* NAVBAR */
 .header {
   background: #ffffff;
   border-bottom: 1px solid #f1f5f9;
@@ -135,9 +131,7 @@ a {
   padding: 8px 18px;
 }
 
-/* =========================================================
-   3. HERO
-   ========================================================= */
+/* HERO */
 .hero-section {
   display: flex;
   align-items: center;
@@ -194,7 +188,6 @@ a {
   color: var(--text-light);
 }
 
-/* Big "AS" Circle with Gradient Ring */
 .avatar-ring {
   width: 250px;
   height: 250px;
@@ -219,9 +212,7 @@ a {
   color: var(--primary);
 }
 
-/* =========================================================
-   4. ABOUT
-   ========================================================= */
+/* ABOUT */
 .about-grid {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
@@ -260,9 +251,7 @@ a {
   color: var(--text-body);
 }
 
-/* =========================================================
-   5. SKILLS (Alternating Light Background)
-   ========================================================= */
+/* SKILLS (Alternating Light Background) */
 .skills-wrapper {
   background-color: var(--bg-muted);
 }
@@ -315,9 +304,7 @@ a {
   color: var(--text-light);
 }
 
-/* =========================================================
-   6. PROJECTS
-   ========================================================= */
+/* PROJECTS */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -403,9 +390,7 @@ a {
   color: var(--primary);
 }
 
-/* =========================================================
-   7. EDUCATION (Dark Header Table)
-   ========================================================= */
+/* EDUCATION (Dark Header Table)*/
 .education-wrapper {
   background-color: var(--bg-muted);
 }
@@ -449,9 +434,7 @@ a {
   color: var(--text-title);
 }
 
-/* =========================================================
-   8. CONTACT
-   ========================================================= */
+/* CONTACT*/
 .contact-wrapper {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -511,9 +494,7 @@ a {
   margin-top: 6px;
 }
 
-/* =========================================================
-   9. FOOTER
-   ========================================================= */
+/* FOOTER*/
 .footer {
   border-top: 1px solid #f1f5f9;
 }
@@ -536,9 +517,7 @@ a {
   color: var(--primary);
 }
 
-/* =========================================================
-   RESPONSIVE DESIGN
-   ========================================================= */
+/* RESPONSIVE DESIGN */
 @media (max-width: 868px) {
   .hero-section {
     flex-direction: column-reverse;
