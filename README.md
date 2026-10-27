@@ -14,7 +14,6 @@ A modern, responsive, and accessible personal portfolio website built from scrat
 - [Curriculum & Concepts Covered](#-curriculum--concepts-covered)
 - [Project Architecture & Built Features](#-project-architecture--built-features)
 - [Key Technical Concepts Applied](#-key-technical-concepts-applied)
-- [JavaScript Console Integration (`script.js`)](#-javascript-console-integration-scriptjs)
 - [Web Development Viva & Interview Prep](#-web-development-viva--interview-prep)
 - [Evaluation Rubric Compliance (10/10)](#-evaluation-rubric-compliance-1010)
 - [File Structure](#-file-structure)
@@ -181,49 +180,6 @@ Enforces predictable box geometry across all nested elements:
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   }
   ```
-
----
-
-## 💻 JavaScript Console Integration (`script.js`)
-
-The project includes `script.js`, which executes automatically when opening `index.html`:
-
-```javascript
-// 1. Variable Declarations
-const developerName = "Mohit Kumar Rana";
-const role = "Data Analyst & AI Undergraduate";
-let age = 20;
-
-const skills = [
-  "SQL (MySQL & SQLite)",
-  "Python & Data Science",
-  "Microsoft Power BI",
-  "Machine Learning",
-  "DSA in Java & C++",
-  "Git & GitHub"
-];
-
-// 2. Template Literal Greeting
-const introMessage = `
-========================================
-👋 Welcome to my Portfolio Website!
-Name: ${developerName}
-Age: ${age}
-Role: ${role}
-Core Skills: ${skills.join(", ")}
-========================================
-`;
-
-console.log(introMessage);
-
-// 3. Demonstrating typeof operator
-console.log("--- Typeof Inspection ---");
-console.log(`typeof developerName : ${typeof developerName}`); // string
-console.log(`typeof age           : ${typeof age}`);           // number
-console.log(`typeof skills        : ${typeof skills}`);        // object (array)
-console.log(`Array.isArray(skills): ${Array.isArray(skills)}`); // true
-```
-
 ---
 
 ## 🎯 Web Development Viva & Interview Prep
@@ -402,7 +358,6 @@ Specificity is measured as a 4-part scoring tuple `(inline, ID, class, element)`
 ByteXl-Week-1-Personal-Portfolio-Website-/
 ├── index.html       # Primary semantic HTML5 markup document
 ├── styles.css       # Complete external CSS styles, design tokens & responsive queries
-├── script.js        # JavaScript variables, template literal greeting & typeof demonstrations
 ├── README.md        # Comprehensive documentation, curriculum guide & viva prep
 └── LICENSE          # Open-source MIT License
 ```
